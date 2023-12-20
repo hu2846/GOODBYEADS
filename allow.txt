@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-20 09:00:46（北京时间） 
-! Total count: 6811
+! Version: 2023-12-20 20:25:45（北京时间） 
+! Total count: 6812
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&__cf_chl_tk=$stealth,~third-party
@@ -488,6 +488,7 @@
 @@||ad.admitad.com/*/*&ulp=
 @@||ad.admitad.com/*/?ulp=
 @@||ad.admitad.com/3rd-party/advert.js
+@@||ad.admitad.com/goto/$domain=atavi.com
 @@||ad.adriver.ru/cgi-bin/rle.cgi$domain=mgts.ru
 @@||ad.alimama.com^$genericblock
 @@||ad.amgdgt.com/ads/js/*$domain=ad.amgdgt.com
@@ -1347,6 +1348,7 @@
 @@||careermap.co.uk/careers/js/google-analytics.js
 @@||carefood.kz/upload/$image
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
+@@||cargocollective.com/designs/$document
 @@||carrefourpl.snrpage.com^$removeparam=utm_source
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cat.telia.no/gtm.js$script,domain=telia.no
@@ -2292,6 +2294,7 @@
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
+@@||entervideo.net/watch^
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||eolinker.com^$generichide
 @@||ephoto360.com/js/blockadblock.js
@@ -2404,7 +2407,6 @@
 @@||filelions.*/js/boxad.js
 @@||filelions.com/js/dnsads.js
 @@||fileone.tv/file/$domain=fileone.tv
-@@||files.fm/f/$stealth
 @@||files.mycloud.com/js/analytics/google_analytics.js$domain=files.mycloud.com
 @@||files.nextcdn.org/stream/$stealth,domain=animepahe.*|kwik.cx
 @@||files.slack.com^$image,~third-party
@@ -3656,6 +3658,7 @@
 @@||id.cxense.com/public/user/id?json=$domain=itmedia.co.jp
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.skyeng.ru^$stealth
+@@||id.tmtm.ru/login/
 @@||id.vk.com/auth$jsinject
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
 @@||identity.mparticle.com/v*/identify$domain=nbc.com
@@ -4069,6 +4072,7 @@
 @@||jinyongci.com^$generichide
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
+@@||jkanime.net/*.php?$popup,domain=jkanime.net
 @@||jkanime.net/jk.php?
 @@||jlthjy.com^$generichide
 @@||jmedj.co.jp/files/$image,~third-party
@@ -4930,7 +4934,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=repo.hackyouriphone.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sammobile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=satdl.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=smallseotools.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=smallseotools.com,badfilter
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sms-receive.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=smsget.net
@@ -5182,7 +5185,6 @@
 @@||protopage.com^$generichide
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
-@@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||ps.w.org^$image,domain=wordpress.org
 @@||pstatic.net^$image,stealth
@@ -5400,6 +5402,7 @@
 @@||rzd.ru^$stealth
 @@||s-cdn.phonearena.com?b=*/back-to-top$stylesheet,script
 @@||s-cdn.phonearena.com?b=css&*,versions/widgets/back-to-top.css
+@@||s-delivery*.mxdcontent.net^$media,stealth
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s-pt.ppstatic.pl/o/js/pp-ads/ads.js
 @@||s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
@@ -5703,7 +5706,6 @@
 @@||slike.indiatimes.com/feed/stream/*.json$domain=timesofindia.indiatimes.com
 @@||slike.indiatimes.com/feed^$domain=tvid.in
 @@||slit.cn/source/plugin/unadblock/*.js
-@@||smallseotools.com^$generichide
 @@||smallseotools.com^$generichide,badfilter
 @@||smartadserver.com/ac?$domain=bildderfrau.de
 @@||smartadserver.com/genericpost$domain=filmweb.pl
@@ -6498,7 +6500,6 @@
 @@||visilabs.net/*/Visilabs.min.js$domain=paribucineverse.com
 @@||viu.com^*/tracking/
 @@||viu.tv^$generichide
-@@||vivo.bg/gpt.js
 @@||vivo.sx^$generichide
 @@||vivocha.com/a/kartell/api/vivocha.js$domain=kartell.com
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
@@ -6550,6 +6551,7 @@
 @@||wargaming.net^$stealth
 @@||watch.globaltv.com^$generichide
 @@||watchcartoononline.io/back.jpg
+@@||wavse.com^$generichide
 @@||wazimo.com/engine/common/widgets/content/$domain=lastnighton.com
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
@@ -6776,7 +6778,6 @@
 @@||youmath.it/_*.js$script
 @@||youporn.com/embed/$subdocument
 @@||youtube.com/$stealth,app=MicrosoftEdgeCP.exe
-@@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/live_chat$stealth=referrer
 @@||youtube.com/live_chat?$stealth
 @@||youtube.googleapis.com/embed^$stealth
