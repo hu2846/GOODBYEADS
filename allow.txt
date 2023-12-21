@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-20 20:25:45（北京时间） 
-! Total count: 6812
+! Version: 2023-12-21 09:13:04（北京时间） 
+! Total count: 6816
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&__cf_chl_tk=$stealth,~third-party
@@ -448,6 +448,7 @@
 @@||ac.namu.la^$domain=arca.live,media,image,stealth
 @@||accaii.com^$domain=kyuusai2nd.net
 @@||account.adobe.com/newrelic.js$~third-party
+@@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||account.mail.ru^$stealth
 @@||account.microsoft.com/?refd=$stealth
 @@||account.microsoft.com/auth/$stealth
@@ -3083,6 +3084,7 @@
 @@||googletagmanager.com/gtm.js$domain=ads.spotify.com
 @@||googletagmanager.com/gtm.js$domain=aena.es
 @@||googletagmanager.com/gtm.js$domain=aeromexico.com
+@@||googletagmanager.com/gtm.js$domain=alfemminile.com
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=animestore.docomo.ne.jp
 @@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
@@ -3543,6 +3545,7 @@
 @@||heise.de/forum^
 @@||heise.de/news^
 @@||helios.pl/*/*/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension
+@@||helix.videotron.com/js/api/fingerprint.js$domain=helix.videotron.com
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 @@||hellomagazine.com^$stealth=dpi
@@ -5073,6 +5076,7 @@
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||platform.bidgear.com/pubbidgear-ad.js$domain=infinityscans.xyz
+@@||platform.cloud.coveo.com^$stealth=3p-auth,domain=intel.*
 @@||platform.twitter.com/$domain=discovery.com
 @@||platform.twitter.com/js/tweet.*.js$domain=gamerant.com
 @@||platform.twitter.com/oct.js$domain=ncsoft.jp
