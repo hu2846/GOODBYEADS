@@ -2,11 +2,10 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-21 20:31:27（北京时间） 
+! Version: 2023-12-22 09:12:29（北京时间） 
 ! Total count: 6816
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
-@@&__cf_chl_tk=$stealth,~third-party
 @@&ad_type=$domain=ultimate-guitar.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@*$app=com.cinemark.mobile
@@ -251,7 +250,6 @@
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
 @@analytics^$domain=wwe.com
 @@broadcastlv.chat.bilibili.com^
-@@cdn-cgi/challenge-platform/$stealth
 @@cdn.eporner.com^$stealth
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@doubleclick.net/ads/preferences/
@@ -2240,6 +2238,7 @@
 @@||eddiebauer.com/__ssobj/core.js+ssdomvar.js+generic-adapter.js
 @@||eden.international/script/ad_banner/
 @@||eden.org.tw^*/ad_banner/
+@@||edge.api.brightcove.com/playback/v1/accounts/*/videos/$xmlhttprequest,domain=tver.jp,stealth=ip
 @@||edge.microsoft.com/translate/auth
 @@||edge.mycdn.live/live/*.m3u8$stealth
 @@||edgesuite.net/crossdomain.xml$domain=sbs.com.au
@@ -4822,6 +4821,7 @@
 @@||onedrive.live.com^$generichide
 @@||onenote.com^*/aria-web-telemetry
 @@||onet.pl/?utm_source=$removeparam
+@@||onet.pl^$generichide,badfilter
 @@||onetag-sys.com/prebid-request$domain=linkneverdie.net
 @@||online-metrix.net/*/check.js$domain=secure.getcreditscore.com.au
 @@||online-metrix.net/*/tags.js$domain=secure.getcreditscore.com.au
