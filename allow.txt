@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-29 20:28:14（北京时间） 
-! Total count: 6830
+! Version: 2023-12-30 09:11:04（北京时间） 
+! Total count: 6829
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&ad_type=$domain=ultimate-guitar.com
@@ -3215,7 +3215,6 @@
 @@||googletagmanager.com/gtm.js$domain=lemoncurve.com
 @@||googletagmanager.com/gtm.js$domain=lgn.edu.gov.il
 @@||googletagmanager.com/gtm.js$domain=liberation.fr
-@@||googletagmanager.com/gtm.js$domain=liga.net
 @@||googletagmanager.com/gtm.js$domain=lightrun.com
 @@||googletagmanager.com/gtm.js$domain=linline-clinic.ru
 @@||googletagmanager.com/gtm.js$domain=live.vodafone.de
@@ -3583,6 +3582,7 @@
 @@||hls-live.bdstatic.com/*/stream_$stealth
 @@||hls.exmarketplace.com/*.m3u8$domain=tvserial.it
 @@||hls.exmarketplace.com/*.ts$domain=tvserial.it
+@@||hls05.*.*/hls05$stealth=referrer,xmlhttprequest,domain=kisskh.co
 @@||hlserve.com/Delivery/$domain=costco.com,script
 @@||hltv.org/vendor/font-awesome
 @@||hm.baidu.com/h.js?$domain=weaku.com
@@ -5380,6 +5380,7 @@
 @@||rightnowtech.com/engagement/api/consumer/nvidia/*/requestEngagement?pool=$removeparam
 @@||rltdxt.com/files/h5/app.js
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
+@@||rmcpay.com/js/google-analytics.js|
 @@||rmdown.com/ads.js
 @@||roleplayer.me/adframe_
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
@@ -5523,8 +5524,6 @@
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
-@@||sdk.fra-*.braze.eu^$app=jp.aeonretail.aeon_okaimono
-@@||sdk.fra-02.braze.eu^$app=jp.co.cosmo_oil
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn-global-audio-adswizz-cache.3qsdn.com/*/files/$other,media,domain=noz.de
@@ -6130,7 +6129,7 @@
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||teams.microsoft.com^$generichide
-@@||tech15.techradar.ink/*/?se=*&listing=$stealth=referrer
+@@||tech*.techradar.ink/*/?se=*&listing=$stealth=referrer
 @@||technews.tw/www/delivery/$badfilter
 @@||technews.tw^$generichide,badfilter
 @@||technical-service.net/api?$domain=n-tv.de|vip.de|rtl.de
