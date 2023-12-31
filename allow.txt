@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2023-12-30 20:28:46（北京时间） 
-! Total count: 6814
+! Version: 2023-12-31 09:18:12（北京时间） 
+! Total count: 6815
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&ad_type=$domain=ultimate-guitar.com
@@ -134,7 +134,7 @@
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/fuckadblock.js$domain=uniqueten.net|topcryptoz.net|allcryptoz.net|meucdn.vip|yandexcdn.com|scenelife.org|hqq.tv|newhost.me|czxxx.org|waaw.tv
-@@/gen.php?playerid$subdocument,stealth=referrer,domain=fastreams.live
+@@/gen.php?playerid$subdocument,stealth=referrer,domain=fastreams.live|xestreams.sx
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
@@ -203,7 +203,7 @@
 @@/social-share.$domain=patentguru.com
 @@/static/*/js/plugins/adview_*_ads.js$~third-party,domain=zebranovel.com|panda-novel.com|pandasnovel.com
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
-@@/static/stream*.png$stealth=referrer,xmlhttprequest,domain=streamocean.online
+@@/static/stream*.png$stealth=referrer,xmlhttprequest,domain=streamocean.online|streambtw.com
 @@/store_ad/*$domain=pcstore.com.tw
 @@/stylesheet/*/*.m3u8$xmlhttprequest,stealth=referrer,domain=fabtech.work
 @@/stylesheet/*/css|$xmlhttprequest,stealth=referrer,domain=fabtech.work
@@ -4197,6 +4197,7 @@
 @@||ksv-video-publish-m3u8.cdn.bcebos.com/*.m3u8$stealth
 @@||kun.uz^$stealth=dpi
 @@||kusonime.com/-cpm-ads.js
+@@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||l.yimg.com/g/combo/*/comscore.$script
 @@||labrc.pw/advstats/$xmlhttprequest
