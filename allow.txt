@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-01-01 20:30:45（北京时间） 
-! Total count: 6800
+! Version: 2024-01-02 09:11:56（北京时间） 
+! Total count: 6799
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&ad_type=$domain=ultimate-guitar.com
@@ -6039,7 +6039,6 @@
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
 @@||tag.search.sensefuel.live/search/$domain=bricomart.es
-@@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 @@||tag.search.sensefuel.live/tag/*/tagp.js$domain=bricomart.es
 @@||tagcommander.com^*/tc_$script
 @@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
