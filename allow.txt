@@ -2,8 +2,8 @@
 ! Title: GOODBYEADS
 ! Homepage: https://github.com/8680/GOODBYEADS
 ! Expires: 12 Hours
-! Version: 2024-01-07 09:20:30（北京时间） 
-! Total count: 6821
+! Version: 2024-01-07 20:29:52（北京时间） 
+! Total count: 6820
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&ad_type=$domain=ultimate-guitar.com
@@ -61,6 +61,7 @@
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
+@@/adpro.js$domain=tingfm.com
 @@/adrum.js$domain=usbank.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
 @@/ads.*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
@@ -817,8 +818,6 @@
 @@||anti-virus4u.com/v/
 @@||antlionaudio.com/cdn/shop/*/assets/fastclick.min.js$~third-party
 @@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
-@@||anyclip.com/main.js$script,domain=video.timeout.com
-@@||anyclip.com/static/$script,domain=video.timeout.com
 @@||anyknew.com^$generichide
 @@||anymind360.com/js/*/ats.js$domain=automaton-media.com
 @@||anymind360.com/js/*/ats.js$domain=newmobilelife.com
@@ -1701,6 +1700,7 @@
 @@||chemicalbook.com^$stealth
 @@||cherrymx.de^$stealth=dpi
 @@||cheshi-img.com/ad/csad_2019.js
+@@||chicksonright.com^$csp,~third-party
 @@||chili.com/api/v*/ad-manager/avod/metadata?*videoAssetId=
 @@||china.com/dianbo/adv1.xml
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
@@ -2396,6 +2396,7 @@
 @@||files.slack.com^$image,~third-party
 @@||files.vitalitygames.com/games/webgl/PreloaderBG/*/game-ads.js
 @@||filespace.com^$generichide
+@@||filmisub.com/templates/filmisub/adblock/adframe.ad-target.js
 @@||filmozercy.com/js/fuckadblock.min.js
 @@||films.imhonet.ru^$jsinject
 @@||filmweb.pl^$generichide
@@ -2472,6 +2473,7 @@
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|tv-tokyo.co.jp|voici.fr
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=soranews24.com
+@@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Frepuls.io$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*.crunchyroll.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
@@ -3975,7 +3977,6 @@
 @@||indiegogo.com^$stealth
 @@||inews.gtimg.com^
 @@||info.seek.com/b/ss/$image,domain=seek.com.au
-@@||infobel.com/Scripts/custom/*.js
 @@||infojobs.com.br/mf-publicarea/_content/InfoJobs.Microfrontend.Components/js/smarttag.js
 @@||infolink.pavv.co.kr^
 @@||infowars.com/wp-content/themes/$image
@@ -4191,7 +4192,6 @@
 @@||ksapisrv.com/rest/wd/common/log/collect/
 @@||ksv-video-publish-m3u8.cdn.bcebos.com/*.m3u8$stealth
 @@||kun.uz^$stealth=dpi
-@@||kusonime.com/-cpm-ads.js
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||l.yimg.com/g/combo/*/comscore.$script
@@ -4890,6 +4890,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bemiraculous.tk|drivedrama.com|puressh.net|iptvbin.com|htnovo.net|frendz4m.org|bestnhl.com|safbits.com|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bloggingsathi.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blogs.sapib.ca
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bowfile.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chromeactions.com
@@ -5315,7 +5316,6 @@
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
-@@||realses.com^$generichide
 @@||recaptcha.net/recaptcha/$csp
 @@||recaptcha.net/recaptcha/$script
 @@||receiveasms.com^$generichide
@@ -5329,7 +5329,6 @@
 @@||reddit.com^$generichide
 @@||reddit.com^$generichide,badfilter
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
-@@||redefineadpl.hit.gemius.pl/*redataredir?url=*.hit.stat24.com*ad.xml$domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl
 @@||redfin.com/stingray/clicktracker.jsp?
 @@||redguide.top^*/ad.css?$stylesheet
 @@||redian.news^$generichide
@@ -5914,6 +5913,7 @@
 @@||static.criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
 @@||static.criteo.net/js/ld/publishertag.js$domain=xda-developers.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=bloggingsathi.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=sportshub.to
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
@@ -6634,7 +6634,6 @@
 @@||wiktionary.org^$generichide
 @@||wilderssecurity.com/forums/
 @@||willhaben.apa.net/clientscript/xtcore.js
-@@||windows101tricks.com/wp-content/plugins/better-adsmanager/js/advertising.min.js
 @@||winwk.com^$generichide
 @@||wipe.de/wa.js$domain=dasoertliche.de
 @@||wipe.de/wa.js$domain=dastelefonbuch.de
